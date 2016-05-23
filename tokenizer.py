@@ -1,4 +1,15 @@
 ##this code has been copied from "https://github.com/dennybritz/rnn-tutorial-rnnlm/blob/master/train-theano.py"
+import csv
+import itertools
+import operator
+import numpy as np
+import nltk
+import sys
+import os
+import time
+from datetime import datetime
+from utils import *
+
 
 def tokenizer(file1):
     
