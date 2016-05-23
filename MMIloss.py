@@ -26,7 +26,7 @@ from tensorflow.models.rnn.translate import data_utils
 
 """
 ##The model is based on the standard seq2seq and anti-LM model from the paper "A Diversity-Promoting Objective Function for Neural Conversation Models"(2016) by Li et al.
-##The following code mostly mimicks seq2seq_model.py from tensorflow library(https://www.tensorflow.org/)
+##The following code mostly mimicks seq2seq.py from tensorflow library(https://www.tensorflow.org/)
 """
 
 def MMIloss(logits, targets, weights, lam, gam,
