@@ -1,4 +1,4 @@
-##this codes was copied from "https://github.com/dennybritz/rnn-tutorial-rnnlm/blob/master/train-theano.py"
+##this code was copied from "https://github.com/dennybritz/rnn-tutorial-rnnlm/blob/master/train-theano.py"
 
 def tokenizer(file1):
     
