@@ -89,7 +89,7 @@ def MMIloss_with_bucket(encoder_inputs, decoder_inputs, targets, weights,
                                     decoder_inputs[:bucket[1]])
                 outputs.append(bucket_outputs)
                 if per_example_loss:
-                    losses.append(sequence_loss_by_example(
+                    losses.append(MMIloss(
               outputs[-1], targets[:bucket[1]], weights[:bucket[1]],
               softmax_loss_function=softmax_loss_function))
                 
