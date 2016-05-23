@@ -173,7 +173,7 @@ class Model(object):
                 if length_idx == decoder_size - 1 or target == data_utils.PAD_ID:
                     batch_weight[batch_idx] = 0.0
             batch_weights.append(batch_weight)
-            return batch_encoder_inputs, batch_decoder_inputs, batch_weights  
+        return batch_encoder_inputs, batch_decoder_inputs, batch_weights  
           
        
     
